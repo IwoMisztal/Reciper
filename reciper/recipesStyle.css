@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+.recipesWrapper {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.heading {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading * {
+    width: 100%;
+}
+
+.recipeTable  {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.recipeTable th, .recipeTable td, .recipeTable tr {
+    margin: 0;
+    padding: 0;
+    padding: 0.5rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.center {
+    width: 65vw;
+    display: block;
+    margin: 0 auto;
+}

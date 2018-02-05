@@ -1,0 +1,140 @@
+*{
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blue {
+    background: lightblue !important;
+    color: #fff !important;
+}
+
+body, body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav {
+    background: #C6FF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    margin-top: 20px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+nav ul li {
+    padding: 0 10px 20px 10px;
+    align-self: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+
+
+header {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.fields {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    text-transform: uppercase;
+}
+
+.login-form input {
+    margin: .2em;
+    height: 50px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    width: 100%;
+}
+
+.login-form h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.signup a {
+    margin-top: 30px;
+    padding: .5em;
+    transition: 1s;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+nav a {
+    font-weight: 700;
+}
+
+
+a:hover, button:hover {
+
+}
+
+.login-form button {
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 50px;
+    background: #C6FF00;
+    border: none;
+    margin: .2em;
+    width: 80%;
+}
+
+.login-form button:hover {
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+    background: #AEEA00;
+}
+
+.login-form button:nth-of-type(2) {
+    background: orangered;
+}
+
+.signupForm input {
+    width: 40%;
+    height: 50px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    line-height: 40px;
+    color: #111;
+}
+
+.signupForm button {
+    width: 40%;
+    height: 50px;
+    background-color: #C6FF00;
+}
