@@ -18,7 +18,7 @@ elEdit.click(function() {editRows()});
 function editRows() {
     var rows = $('tr');
     for(i=1;i<rows.length; i++) {
-        if($(rows[i]).hasClass('blue'))
+        if($(rows[i]).hasClass('active'))
         {
             var buttons = $(rows[i]).children()[3];
             var ingredients = $(rows[i]).children()[1];
@@ -54,7 +54,7 @@ function deleteStep()
 {
     var rows=$('tr');
     for(i=1;i<rows.length;i++) {
-        if ($(rows[i]).hasClass('blue')) {
+        if ($(rows[i]).hasClass('active')) {
             $(rows[i]).remove();
         }
     }
@@ -75,11 +75,11 @@ function Activate (el)
 {
    var rows = $('tr');
    for(i=1;i<rows.length;i++) {
-       if ($(rows[i]).hasClass('blue')) {
-           $(rows[i]).removeClass('blue');
+       if ($(rows[i]).hasClass('active')) {
+           $(rows[i]).removeClass('active');
        }
    }
-       $(el).addClass('blue');
+       $(el).addClass('active');
    }
 
 
